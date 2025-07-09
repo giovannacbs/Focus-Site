@@ -20,7 +20,7 @@ This project depends on a separate backend repository that:
 - generates a downloadable `.xlsx` spreadsheet.
 
 Backend repository:  
-🔗 [https://github.com/giovannacbs/Focus-Extractor](https://github.com/giovannacbs/Focus-Project)
+🔗 [https://github.com/giovannacbs/Focus-Project](https://github.com/giovannacbs/Focus-Project)
 
 The backend is currently hosted at:  
 🌐 [`https://focus-project-ix6q.onrender.com`](https://focus-project-ix6q.onrender.com)
