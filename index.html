@@ -2,18 +2,38 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Download Excel - Focus</title>
+  <title>Focus Survey - Brazil</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <div class="header">
+    <h1>Focus - Brazil's Market Readout</h1>
+  </div>
+
+<p class="description">
+  The <strong><a href="https://www.bcb.gov.br/en/publications/focusmarketreadout" target="_blank">Focus Market Readout</a></strong> is a weekly publication by the Central Bank of Brazil that consolidates forecasts from economists and financial institutions regarding key economic indicators such as inflation (IPCA), GDP growth, interest rates (Selic), and exchange rates. It serves as a reference for market expectations and helps guide economic analysis and policy decisions. <br> <br> The report is released every Monday around 8:25 a.m. (Brasília time), based on estimates submitted during the previous week, up until Friday.
+</p>
+
+
   <form id="focus-form">
-    <label for="date">Escolha uma data:</label>
-    <input type="date" id="date" required />
-    <button type="submit">Baixar Excel</button>
+    <label for="date">Choose a Friday:</label>
+    <input id="date" required readonly />
+    <button type="submit">Download Excel</button>
     <div id="status"></div>
   </form>
 
+  <footer>
+    Projects Repository: 
+    <a href="https://github.com/giovannacbs/Focus-Site" target="_blank">github.com/giovannacbs/Focus-Site</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   <script src="script.js"></script>
 </body>
 </html>
